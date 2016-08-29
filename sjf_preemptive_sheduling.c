@@ -17,6 +17,7 @@ void main()
 	int temp,val,loc;
 	int i,n,j,k,tval,flag,wt[100],wp[100],fval;
 	int gt[1000];
+	printf("JAI PRAKASH SHARMA(CE-2190-2K14)\n");
 	printf("Enter the count of processes:");
 	scanf("\n%d",&n);
 	for(i=0;i<n;i++)
