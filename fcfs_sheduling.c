@@ -4,6 +4,7 @@ void main()
 {
 	int p[10],i,n;
 	float bt[10],awt=0;
+	printf("JAI PRAKASH SHARMA(CE-2190-2K14)\n");
 	printf("Enter the number of processes");
 	scanf("%d",&n);
 	for(i=0;i<n;i++)
