@@ -37,8 +37,6 @@ void main()
 			case 1:
 			{
 				for(i=0;i<n;i++)
-				printf("%d\n",a[i]);
-				for(i=0;i<n;i++)
 				{
 					for(j=i+1;j<n;j++)
 					{
@@ -57,8 +55,6 @@ void main()
 			break;
 			case 2:
 			{
-				for(i=0;i<n;i++)
-				printf("%d\n",a[i]);
 				for(i=0;i<(n);i++)
 				{  
 					for(j=0;j<n-1-i;j++)
@@ -78,8 +74,6 @@ void main()
 			break;
 			case 3:
 			{
-				for(i=0;i<n;i++)
-				printf("%d\n",a[i]);
 				for(i=1;i<n;i++)
 				{
 					j=i-1;
@@ -101,8 +95,6 @@ void main()
 			break;
 			case 4:
 			{
-				for(i=0;i<n;i++)
-				printf("%d\n",a[i]);
 				merge(a,0,n-1);
 				printf("The sorted list is:\n");
 				for(i=0;i<n;i++)
@@ -111,8 +103,6 @@ void main()
 			break;
 			case 5:
 			{
-				for(i=0;i<n;i++)
-				printf("%d\n",z[i]);
 				low=0;
 				high=n-1;
 				quick_sort(a,low,high);	
