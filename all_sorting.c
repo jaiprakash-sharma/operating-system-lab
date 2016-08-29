@@ -8,6 +8,7 @@ int partition(int b[],int low,int high);
 void main()
 {
 	int z[100],i,j,n,temp,low,high,ch;
+	printf("JAI PRAKASH SHARMA(CE-2190-2K14)\n");
 	printf("Enter the size of list:\n");
 	scanf("%d",&n);
 	for(i=0;i<n;i++)
